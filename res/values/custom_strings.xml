@@ -246,4 +246,9 @@
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps">Assisted GPS</string>
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance</string>
+
 </resources>
