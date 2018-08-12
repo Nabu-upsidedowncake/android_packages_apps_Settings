@@ -106,6 +106,7 @@ import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
 import com.android.settings.fuelgauge.batteryusage.PowerUsageSummary;
+import com.android.settings.fuelgauge.batterysaver.SmartPixels;
 import com.android.settings.gestures.AssistGestureSettings;
 import com.android.settings.gestures.ButtonNavigationSettingsFragment;
 import com.android.settings.gestures.DoubleTapPowerSettings;
@@ -371,7 +372,8 @@ public class SettingsGateway {
             NfcAndPaymentFragment.class.getName(),
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
-            RegionalPreferencesEntriesFragment.class.getName()
+            RegionalPreferencesEntriesFragment.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -418,5 +420,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
