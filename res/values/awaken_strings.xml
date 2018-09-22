@@ -27,6 +27,9 @@
     <string name="maintainer">Maintainer</string>
     <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
