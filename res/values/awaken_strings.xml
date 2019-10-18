@@ -363,4 +363,10 @@
     <string name="pulse_on_new_tracks_title">Music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 
+    <!-- Volume Key cursor control -->
+    <string name="volume_key_cursor_control_title">Keyboard cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+
 </resources>
