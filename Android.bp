@@ -109,8 +109,8 @@ android_library {
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
-        "custom-preference",
         "vendor.lineage.fastcharge-V1.0-java",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
