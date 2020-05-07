@@ -22,4 +22,8 @@
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
     <string name="awaken_uri" translatable="false">https://github.com/Nabu-upsidedowncake</string>
+
+    <!-- Made by -->
+    <string name="maintainer">Developer</string>
+    <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
 </resources>
