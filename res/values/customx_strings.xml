@@ -134,4 +134,8 @@
     <!-- Edge gesture -->
     <string name="navigation_bar_edge_long_swipe_title">Edge long swipe action</string>
 
+    <!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
+
 </resources>
