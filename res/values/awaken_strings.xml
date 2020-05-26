@@ -31,7 +31,11 @@
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 
-    <!-- Customization category -->
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+
+	    <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
 
