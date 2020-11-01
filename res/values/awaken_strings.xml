@@ -473,4 +473,9 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Second(s)</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
 </resources>
