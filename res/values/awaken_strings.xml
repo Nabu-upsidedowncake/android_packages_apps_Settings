@@ -58,4 +58,10 @@
     <string name="keygaurd_media_art_title">Display media cover art</string>
     <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
