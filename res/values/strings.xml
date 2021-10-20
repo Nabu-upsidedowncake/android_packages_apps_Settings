@@ -12150,4 +12150,7 @@
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
     <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
     <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
+
+    <string name="connectivity_check_title">Internet connectivity check</string>
+    <string name="connectivity_check_summary">HTTP endpoints to use for performing internet connectivity checks.</string>
 </resources>
