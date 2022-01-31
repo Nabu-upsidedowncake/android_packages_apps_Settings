@@ -183,4 +183,8 @@
     </string>
     <string name="island_notification_now_playing_title">Now playing</string>
     <string name="island_notification_now_playing_summary">Show currently playing media as island notification</string>
+
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="unlimited_photos_storage_title">Unlimited Google Photos storage</string>
+    <string name="unlimited_photos_storage_summary">Unlimited storage for backup photos. Google Photos’ new features will not be available.</string>
 </resources>
