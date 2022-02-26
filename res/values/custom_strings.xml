@@ -318,4 +318,7 @@
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
 
+    <!-- Blur -->
+    <string name="window_blur">Enable blur</string>
+
 </resources>
