@@ -377,4 +377,6 @@
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
+    <!-- Blur -->
+    <string name="window_blur">Enable blur</string>
 </resources>
