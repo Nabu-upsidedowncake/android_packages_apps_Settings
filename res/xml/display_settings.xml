@@ -213,5 +213,11 @@
             android:summary="@string/display_cutout_force_fullscreen_summary"
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
+        <com.awaken.support.preferences.SecureSettingSwitchPreference
+                android:key="qs_show_data_usage"
+                android:title="@string/qs_show_data_usage_title"
+                android:summary="@string/qs_show_data_usage_summary"
+                android:defaultValue="true" />
     </PreferenceCategory>
 </PreferenceScreen>
