@@ -287,4 +287,7 @@
     <string name="monet_engine_tint_background_title">Tint background</string>
     <string name="monet_engine_tint_background_summary">Make luminance and chroma selection affect background colors as well</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
