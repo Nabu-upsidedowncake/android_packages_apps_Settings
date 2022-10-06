@@ -292,6 +292,13 @@
         android:defaultValue="false"
         settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
 
+    <!-- QS Tiles haptic -->
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_tiles_haptic"
+        android:title="@string/qs_tiles_haptic_title"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.sound.CustomHapticPreferenceController" />
+
     <!-- Volume slider haptic -->
     <com.awaken.support.preferences.SystemSettingSwitchPreference
         android:key="volume_slider_haptic"
