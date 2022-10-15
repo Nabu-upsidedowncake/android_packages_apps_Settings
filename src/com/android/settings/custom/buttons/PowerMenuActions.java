@@ -32,6 +32,8 @@ import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
+import com.android.internal.util.custom.globalactions.PowerMenuUtils;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 
 import java.util.ArrayList;
@@ -60,6 +62,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private CheckBoxPreference mUsersPref;
     private CheckBoxPreference mEmergencyPref;
     private CheckBoxPreference mDeviceControlsPref;
+    private CheckBoxPreference mPanicPref;
 
     private CustomGlobalActions mCustomGlobalActions;
 
@@ -95,6 +98,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
                 mEmergencyPref = findPreference(GLOBAL_ACTION_KEY_EMERGENCY);
             } else if (action.equals(GLOBAL_ACTION_KEY_DEVICECONTROLS)) {
                 mDeviceControlsPref = findPreference(GLOBAL_ACTION_KEY_DEVICECONTROLS);
+            } else if (action.equals(GLOBAL_ACTION_KEY_PANIC)) {
+                mPanicPref = findPreference(GLOBAL_ACTION_KEY_PANIC);
             }
         }
 
@@ -157,6 +162,12 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
             serviceListing.reload();
         }
 
+        if (mPanicPref != null) {
+            mPanicPref.setChecked(mCustomGlobalActions.userConfigContains(
+                    GLOBAL_ACTION_KEY_PANIC));
+            mPanicPref.setEnabled(PowerMenuUtils.isPanicAvailable(mContext));
+        }
+
         updatePreferences();
     }
 
@@ -189,6 +200,10 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         } else if (preference == mDeviceControlsPref) {
             value = mDeviceControlsPref.isChecked();
             mCustomGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_DEVICECONTROLS);
+
+        } else if (preference == mPanicPref) {
+            value = mPanicPref.isChecked();
+            mCustomGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_PANIC);
 
         } else {
             return super.onPreferenceTreeClick(preference);
