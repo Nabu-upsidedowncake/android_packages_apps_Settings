@@ -185,6 +185,12 @@
             settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController"/>
 
         <SwitchPreference
+            android:key="disable_vrr"
+            android:title="@string/disable_vrr_title"
+            android:summary="@string/disable_vrr_summary"
+            settings:controller="com.android.settings.display.VrrPreferenceController"/>
+
+        <SwitchPreference
             android:key="show_operator_name"
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>

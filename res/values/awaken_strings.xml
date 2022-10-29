@@ -482,4 +482,8 @@
     <string name="unit_seconds">Second(s)</string>
     <string name="volume_dialog_timeout_title">Volume panel timeout</string>
     <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
+
+    <!-- Disable VRR -->
+    <string name="disable_vrr_title">Disable VRR</string>
+    <string name="disable_vrr_summary">Do not use content based refresh rate switching\nWill harm battery life</string>
 </resources>
