@@ -95,6 +95,12 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            android:defaultValue="true" />
+
         <Preference
             android:key="always_on_display_schedule"
             android:title="@string/always_on_display_schedule_title"

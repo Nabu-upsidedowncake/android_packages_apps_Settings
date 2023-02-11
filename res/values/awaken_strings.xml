@@ -359,4 +359,8 @@
     <!-- Quad9 DNS hostname -->
     <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
 
+    <!-- Ambient music ticker -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
 </resources>
