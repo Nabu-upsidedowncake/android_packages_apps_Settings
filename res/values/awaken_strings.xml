@@ -566,4 +566,8 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+
+    <!-- QS Dual Tone Colors -->
+    <string name="qs_dual_tone_title">Dual tone themed</string>
+    <string name="qs_dual_tone_summary">Use dual tone background colors instead of AOSP single tone</string>
 </resources>
