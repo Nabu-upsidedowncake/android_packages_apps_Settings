@@ -324,4 +324,7 @@
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Refresh Rate</string>
 
+    <!-- Smooth Display -->
+    <string name="smooth_display_intro">Automatically raises the refresh rate from 60 Hz to the selected high refresh rate, for some content. Increases battery usage.</string>
+    <string name="smooth_display_switch">Use Smooth Display</string>
 </resources>
