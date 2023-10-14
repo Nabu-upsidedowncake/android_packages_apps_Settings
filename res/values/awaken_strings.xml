@@ -24,7 +24,7 @@
     <string name="awaken_uri" translatable="false">https://github.com/Nabu-upsidedowncake</string>
 
     <!-- Awaken maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Developer</string>
     <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
 
     <!-- Battery health -->
