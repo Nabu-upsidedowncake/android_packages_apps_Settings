@@ -24,6 +24,7 @@
     <com.android.settingslib.widget.IllustrationPreference
         android:key="sound_illustration"
         settings:lottie_rawRes="@raw/sound_illustration"
+        android:selectable="false"
         android:order="-1001" />
 
     <!-- Remote volume group -->

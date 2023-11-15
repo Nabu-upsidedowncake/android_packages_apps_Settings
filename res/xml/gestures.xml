@@ -23,6 +23,7 @@
     <com.android.settingslib.widget.IllustrationPreference
         android:key="gestures_illustration"
         settings:lottie_rawRes="@raw/gestures_illustration"
+        android:selectable="false"
         android:order="-1001" />
 
     <Preference
