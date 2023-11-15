@@ -38,7 +38,7 @@ public class ForcePeakRefreshRatePreferenceController extends TogglePreferenceCo
     static float DEFAULT_REFRESH_RATE = 60f;
 
     @VisibleForTesting
-    static float NO_CONFIG = 0f;
+    static float NO_CONFIG = 60f;
 
     @VisibleForTesting
     float mPeakRefreshRate;
