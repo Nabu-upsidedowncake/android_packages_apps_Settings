@@ -24,8 +24,6 @@ import android.util.AttributeSet;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
-import com.android.internal.util.custom.CustomUtils;
-
 public class SystemPropertyListPreference extends ListPreference {
 
     private static final String PREFS_NAME = "system_property_store_";
@@ -52,7 +50,7 @@ public class SystemPropertyListPreference extends ListPreference {
                 editor.putString(getKey(), value);
                 editor.apply();
                 SystemProperties.set(getKey(), value);
-                CustomUtils.showSystemRestartDialog(context);
+                systemUtils.showSystemRestartDialog(context);
                 return true;
             }
         });
