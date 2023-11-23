@@ -26,7 +26,7 @@
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
     <!-- Awaken version -->
-    <string name="awaken_version">Awaken version</string>
+    <string name="awaken_version">SK AOSP version</string>
     <string name="awaken_version_default">Unknown</string>
     <string name="awaken_uri" translatable="false">https://github.com/Project-Awaken</string>
 
