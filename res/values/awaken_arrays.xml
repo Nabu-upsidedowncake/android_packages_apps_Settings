@@ -88,6 +88,7 @@
         <item>com.google.android.deskclock</item>
         <item>com.google.android.documentsui</item>
         <item>com.google.android.googlequicksearchbox</item>
+    </string-array>
 
     <!-- Navigation bar IME space -->
     <string-array name="navigation_bar_ime_space_entries" translatable="false">
