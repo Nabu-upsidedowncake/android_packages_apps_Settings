@@ -535,12 +535,6 @@
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-
     <!-- Timeout entries -->
     <string name="timeout_summary_never">Never</string>
     <string name="timeout_summary_15secs">15 seconds</string>
