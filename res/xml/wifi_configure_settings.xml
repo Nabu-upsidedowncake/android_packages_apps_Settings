@@ -34,6 +34,12 @@
         android:entryValues="@array/wifi_timeout_values"
         settings:controller="com.android.settings.wifi.WifiTimeoutPreferenceController"/>
 
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+        android:key="wifi_standard_icon"
+        android:title="@string/wifi_standard_icon_title"
+        android:summary="@string/wifi_standard_icon_summary"
+        android:defaultValue="false" />
+
     <SwitchPreference
         android:key="notify_open_networks"
         android:title="@string/wifi_notify_open_networks"
