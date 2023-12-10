@@ -53,12 +53,6 @@
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
-    <!-- Lockscreen media art -->
-    <string name="lockscreen_media_art_category_title">Media art</string>
-    <string name="keygaurd_media_art_title">Display media cover art</string>
-    <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
-    <string name="lockscreen_media_blur_title">Media art blur level</string>
-
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
