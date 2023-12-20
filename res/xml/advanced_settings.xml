@@ -4,6 +4,12 @@
         android:key="advanced_settings"
         android:title="@string/advanced_pref_title">
 
+    <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="com.android.settings.custom.pulse.PulseSettings" />
+
     <PreferenceCategory
         android:key="advanced_backup_key"
         android:title="@string/advanced_backup_title">
